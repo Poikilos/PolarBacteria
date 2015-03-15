@@ -1,0 +1,1 @@
+KivyBacteriaStatisticSet:    time:'2015-03-07 16:44:48'    type:win    playerDeaths:5    playerKills:25    playerAttempts:43    accuracyPercentage:58KivyBacteriaStatisticSet:    time:'2015-03-13 21:18:19'    type:win    playerDeaths:29    playerKills:99    playerAttempts:176    accuracyPercentage:56
