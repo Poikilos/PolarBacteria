@@ -1,5 +1,5 @@
 # Polar Bacteria
-A simplified complete 1-level white blood cell game using polar movement and sprite rotation
+A simplified complete 1-level white blood cell game using polar movement and sprite rotation (takes most efficient direction of rotation toward destination angle)
 
 ![Screenshot](https://github.com/expertmm/PolarBacteria/blob/master/screenshot01.png)
 
