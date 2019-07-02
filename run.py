@@ -25,6 +25,13 @@ IsDebug = False
 #PPS will stand for Pixels Per Second
 pixelsPerMeter = 64.0
 framesPerSecond = 60.0
+scriptParentPath = os.path.dirname(__file__)
+# DATADIR = os.path.join(scriptParentPath, DATADIR)
+
+
+def getFullName(fileName):
+    global scriptParentPath
+    return os.path.join(scriptParentPath, fileName)
 
 
 def equalSize(thisSize, thatSize):
@@ -642,8 +649,8 @@ class CanvasForm(Widget):
     victoriesLabel = None
     playerKillCount = 0
     playerDeathCount = 0
-    leukocyteImageFileName = "leukocyte.png"
-    bacteriumImageFileName = "bacterium-a.png"
+    leukocyteImageFileName = getFullName("leukocyte.png")
+    bacteriumImageFileName = getFullName("bacterium-a.png")
     mainBoxLayout = None
     IsPressing = False
     bacteriaEverGeneratedCount = 0
